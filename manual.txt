@@ -1,0 +1,35 @@
+Welcome to Minesweeper! Minesweeper is a logic game that traces its roots to the
+1960s and 1970s. Since then,it has expanded and can
+now be found on most Windows computers. The object of the game  
+is clear a treacherous minefield by planting flags on suspected mines.
+Occasional guessing may be required, but numbers will   appear if
+an empty cell is clicked. These numbers tell the user how many mines
+are surrounding it. 
+
+If the user manages to successfully plant flags on all the mines,
+he/she/it will be awarded with the right to pat themselves on the back.  
+Losers can try again.
+
+There are three modes of play: manual, computer aided, and automated. For manual, simply solve the board on your own. If you get stuck, you can call on AI to finish the board for you. Beware, however, there are different types of AIs. Otherwise you can simply sit back and watch the AI work its magic.
+
+The three AIs:
+
+1) "I have no idea what I'm doing": This AI simply guesses on the board. It play as if it was a human very little to no experience in minesweeper. Basically, it's terrible.
+
+2) "Decent Minesweeper Player": This AI solves the board most of the time. It simulates a human who has played minesweeper for quite some time and understands the game. This AI will only die in the first few moves as it tries to clear as much of the board as possible by guessing so it can begin calculations. 
+
+3) "Godly": As the name states, this is a godly AI that never loses. It can finish an expert board a in minimum of 16 seconds, which is faster than any human has achieved before (the human record has been reported from 38 to 55 seconds).
+
+If you need more help at any time, click the help button to the left of the scoreboard. To toggle the AIs, click on the AI button to the right of the timer. You cannot change AIs once you start one. Restart by clicking the smiling face or press 'r' to change AIs.
+
+NOTE: For frequent players of minesweeper, an important rule change is you must flag the mines to win. You cannot win simply by revealing all the cells except the ones containing mines.
+
+Controls:
+
+* Left-click: Uncover cell. Beware, it could be a mine. 
+
+* Right-click: When you click an empty cell, it will place a flag. If the cell contains a flag, it will replace the flag with a question mark. If the cell contained a question mark, it returns the cell to an empty state.
+
+* 'a': Activate the AI and let it work its magic
+
+* 'r': Restart the game

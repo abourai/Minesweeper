@@ -1,0 +1,35 @@
+Timesheet:
+
+11/19: Changed project from Android application to Minesweeper and a Minesweeper AI (Won't count this as work time it was a 10 second decision after spending hours trying to get client servers to work)
+
+11/20: Began studying minesweeper strategies and complete gameplay. Wrote pseudocode for gameplay. (2 hours)
+
+11/21: Wrote pseudocode for Minesweeper AI (1 hour)
+
+11/22: Wrote minesweeper gameplay without UI since I didn't go home for Thanksgiving and had too much time. (6 hours)
+
+11/23: Completed basic minesweeper gameplay with most of the UI. Searched for images to use in Tkinter and researched how to use and implemented PIL (python image library) and EasyGui for the user interface. Modified pseudocode for the basic minesweeper gameplay after  (7 hours)
+
+11/24: Added an intermediate and expert level. Began programming the AI. Debugged for hours after 30 minutes of coding. Developed a 2 phase algorithm at first but I realized it would not solve the game quickly or often enough. (6 hours)
+
+11/25: Played some minesweeper, I had too much other homework today. 
+
+11/26: Added a third phase to the solving algorithm. Separated the recursive revealing algorithm into two functions, one for the AI and one for human use. The third phase of the algorithm calls upon the AI version. The third phase is necessary to clear the blanks around a number that already has enough flagged mines surrounding it. (4 hours)
+
+11/27: Blew off 151 studying to debug third phase of algorithm. redrawAll(canvas) was called too many times and slowed down program every time it found a mine since it would redraw four times. (3 hours)
+
+11/28: Realized AI algorithm needed a fourth phase to help it quickly finish off a board. Phases 1-3 are randomized but phase four is the "closer" once enough of the mines have been found. 151 studying the rest of the night. (5 hours)
+
+11/29: Implemented part of the fourth phase. Far too inefficient and buggy and does not display flags (6 hours)
+
+11/30: Wrote help screen. Kept debugging fourth phase and its interactions with the rest of the phases of the algorithm. Implemented a timer display and scoreboard(5 hours).
+
+12/1: Completed fourth phase of algorithm. Found the problem within the auto play function. Figured out that my MacBook Pro's one button mouse's right click does not work with Tkinter (tested it on Kosbie's code too). AI solved expert in record time, solved beginner in 7 to 15 seconds (6 hours).
+
+12/2: Worked on UI. Fixed help screen, added restart functionality. (3 hours)
+
+12/3: Added two more AI's so three total, stupid, human level, godly (originally wanted to call them Dietrich, CIT and SCS at my floor's behest but my conscience kicked in). Debugging the multiple AI's took longer than expected. (7 hours)
+
+12/4: Added restart button on the smiley face, AI toggle button, and a help button after suggestions from the user study period in lecture. Smiley face turns dead when game is over, gets sunglasses when game is won. (4 hours)
+
+Total: 62 hours
