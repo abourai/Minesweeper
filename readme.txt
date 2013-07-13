@@ -1,6 +1,5 @@
 
-
-This project implements minesweeper and multiple AIs that attempt and, in most cases, succed to solve the board. To run the project, ensure that you are running it from the Minesweeper_112 directory. There are images in the directory that are necessary for the program to run. 
+This project implements Minesweeper and multiple AIs that attempt and, in most cases, succed to solve the board. To run the project, ensure that you are running it from the Minesweeper_112 directory. There are images in the directory that are necessary for the program to run. 
 
 IMPORTANT NOTE: If you use a Macbook Pro with a single button trackpad, Tkinter will not be able to register right clicks. In fact, some wireless mice have had issues with this as well. Use a wired mouse if possible if you are in this situation. Test it on your computer first of course, as this could be a isolated issue for a few computers.
 
